@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main>
       <h3>This causes a layout shift (using next/image)</h3>
-      <p>
+      <div>
         We noticed that you are from 
         <Image
           alt="Argentina flag"
@@ -14,7 +14,7 @@ export default function Home() {
         />
         . We are offering purchasing power parity pricing. If that is
         something that you need:
-      </p>
+      </div>
       <hr />
       <h3>This does not (using img tag)</h3>
       <p>
